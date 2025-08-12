@@ -2,10 +2,10 @@ TERMUX_PKG_HOMEPAGE=https://lftp.tech/
 TERMUX_PKG_DESCRIPTION="FTP/HTTP client and file transfer program"
 TERMUX_PKG_LICENSE="GPL-3.0"
 TERMUX_PKG_MAINTAINER="@termux"
-TERMUX_PKG_VERSION=4.9.2
+TERMUX_PKG_VERSION=4.9.3
 TERMUX_PKG_REVISION=6
 TERMUX_PKG_SRCURL=http://lftp.yar.ru/ftp/lftp-$TERMUX_PKG_VERSION.tar.gz
-TERMUX_PKG_SHA256=a37589c61914073f53c5da0e68bd233b41802509d758a022000e1ae2076da733
+TERMUX_PKG_SHA256=96e7199d7935be33cf6b1161e955b2aab40ab77ecdf2a19cea4fc1193f457edc
 TERMUX_PKG_DEPENDS="libandroid-support, libc++, libexpat, libiconv, openssl, readline, libidn2, zlib"
 
 # (1) Android has dn_expand, but lftp assumes that dn_skipname then exists, which it does not on android.
